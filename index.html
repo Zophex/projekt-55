@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .dindun{
+            height: 200px;
+            width: 200px;
+            background-color: ORANGE;
+        }
+        .dindun:hover{
+            background-color: aqua;
+            width: 300px;
+            transition: 3s;
+        }
+        .dindue{
+            color: purple;
+            height: 120px;
+            width: 120px;
+            background-color: purple;
+        }
+        .dindue:hover {
+            color: black;
+            background-color: green;
+            transform: translate(200px);
+            transition: 2s linear;
+        }
+        .dindur:hover{
+            color: black;
+            background-color: beige;
+             transform: translate(200px);
+            transition: 2s ease;
+        }
+        .dindur{
+            color: purple;
+            height: 120px;
+            width: 120px;
+            background-color: purple;
+        }
+        .dindut{
+            color: purple;
+            height: 120px;
+            width: 120px;
+            background-color: purple;
+        }
+        .dindut:hover{
+            color: black;
+            background-color: slategrey;
+             transform: translate(200px);
+            transition: 2s ease-in;
+        }
+        .dinduy{
+            color: purple;
+            height: 120px;
+            width: 120px;
+            background-color: purple;
+        }
+        .dinduy:hover{
+            color: black;
+            background-color: rgb(219, 101, 255);
+            transform: translate(200px);
+            transition: 2s ease-out;
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="dindun"></div>
+    <div class="dindue" id="2">
+    linear
+    </div>
+    <div class="dindur" id="2">ease</div>
+    <div class="dindut" id="2">ease-in</div>
+    <div class="dinduy" id="2">ease-out</div>
+</body>
+</html>
